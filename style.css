@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 1rem;
+}
+
+div {
+  border: 1px solid black;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+button {
+  cursor: pointer;
+  padding: 0 0.5rem;
+  margin-right: 0.5rem;
+}
+
+button:disabled {
+  cursor: default;
+}
